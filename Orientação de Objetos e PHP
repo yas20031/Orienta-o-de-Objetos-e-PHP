@@ -1,0 +1,65 @@
+class Filme {
+    private $id;
+    private $titulo;
+    private $descricao;
+    private $duracao;
+    private $classificacao;
+
+}
+
+class Sala {
+    private $id;
+    private $capacidade;
+    private $tipo;
+    private $assentos = array();
+
+
+    public function verificarDisponibilidadeAssentos() {
+    }
+}
+
+class Assento {
+    private $id;
+    private $status;
+
+
+}
+
+class Ingresso {
+    private $id;
+    private $filme;
+    private $sala;
+    private $assento;
+    private $preco;
+    private $tipo;
+    private $statusPagamento;
+
+
+    public function calcularPreco() {
+   
+    }
+}
+
+class Cliente {
+    private $id;
+    private $nome;
+    private $email;
+    private $idade;
+
+
+}
+
+class Cinema {
+    private $filmes = array();
+    private $salas = array();
+
+    public function adicionarFilme(Filme $filme) {
+        
+    }
+
+    public function adicionarSala(Sala $sala) {
+      
+    }
+
+}
+
